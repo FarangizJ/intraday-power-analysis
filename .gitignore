@@ -1,11 +1,16 @@
-data/raw/
-data/processed/
-*.env
-.env
+.DS_Store
 __pycache__/
 *.pyc
-.DS_Store
-*.csv
-*.parquet
-*.xlsx
+*.pyo
 .ipynb_checkpoints/
+.env
+*.env
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+data/AT/processed/intraday_trades_AT.parquet
+data/DE/processed/intraday_trades_DE.parquet
+notebooks/my key.txt
+**/my key.txt
